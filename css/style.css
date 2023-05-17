@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.head1 {
+    display: flex;
+    background-color: rgba(17, 14, 14, 0.973);
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    font-size: 1.3rem;
+    border-bottom: solid 1px red;
+    position: relative;
+    z-index: 1;
+
+}
+
+li {
+    display: flex;
+    padding: 20px;
+    color: rgb(228, 17, 52);
+    margin-top: 30px;
+
+}
+
+
+#logo {
+    width: 250px;
+    height: 120px;
+    margin-top: 30px;
+
+}
+
+#bt-hamburguer,
+#bt-fechar {
+    position: absolute;
+    right: 10px;
+    background-color: rgba(227, 209, 228, 0.979);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2;
+
+
+
+
+}
+
+#bt-fechar {
+    display: none;
+}
+
+#textofoto {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.d-block w-100 {
+    width: 700px;
+    height: 400px;
+}
+
+.custom-image {
+    max-width: 80%;
+    /* Defina a largura máxima desejada para a imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+body {
+    /* background-color: rgba(17, 14, 14, 0.973); */
+    color: aliceblue;
+
+    background-image: url(destaque-home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -2;
+
+
+
+}
+
+.sobreimagens {
+    display: flex;
+}
+
+#boasvindas {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+#boasvindas p {
+    /* margin-bottom: 30px; */
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    color: red;
+}
+
+
+
+
+.titlewelcome {
+    height: 300px;
+    color: red;
+}
+
+.fotohome {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid white 1px;
+}
+
+footer {
+    background-color: rgba(17, 14, 14, 0.973);
+    display: flex;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+footer img {
+    padding: 10px;
+    width: 40px;
+
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(235, 11, 11, 0.295);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(214, 75, 168);
+}
+
+.fotosdestaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.fotosdestaque img {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.localizacao iframe {
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+#formulario {
+    width: 450px;
+    height: 400px;
+    background-color: rgba(241, 24, 24, 0.411);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 10px;
+    border: solid 1px red;
+}
+
+
+#formulario input {
+    border-radius: 5px;
+    padding: 2px;
+    color: rgb(240, 230, 230);
+    background-color: rgba(255, 0, 0, 0.315);
+    border: rgb(243, 236, 236) solid 1px ;
+}
+
+
+#formulario form {
+    height: 300px;
+    margin: 10px;
+}
+
+
+.labelinput {
+    display: flex;
+    width: 280px;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5PX;
+    height: 250px;
+}
+
+
+.multiple-items {
+    border-radius: 5px;
+}
+
+#date {
+    /* margin-left: 10px; */
+    width: 140px;
+    font-size: 1.1rem;
+    margin-left: 18px;
+}
+
+#enviar {
+    background-color: rgb(241, 18, 18);
+    color: aliceblue;
+    width: 150PX;
+}
+
+#horario {
+    margin-left: 20px;
+}
+
+select {
+    width: 140px;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+
+.menu-principal {
+    position: relative;
+    left: auto;
+    top: 15vh;
+    width: 100vw;
+    height: 85vh;
+    background-color: cornflowerblue;
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-principal li {
+    list-style: none;
+}
+
+
+@media(min-width:300px) {
+    #bt-fechar #bt-hamburguer {
+        display: none;
+    }
+
+    .menu-principal {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 70vw;
+        height: 100%;
+        background-color: rgba(221, 225, 231, 0);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+
+
+
+p,
+li,
+h1 {
+    animation-name: shake;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        color: rgb(233, 17, 17);
+    }
+
+    50% {
+        color: rgb(227, 227, 233);
+    }
+
+    100% {
+        color: rgb(233, 13, 13);
+    }
+}
